@@ -1,0 +1,61 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.234
+Model:                            OLS   Adj. R-squared:                  0.231
+Method:                 Least Squares   F-statistic:                     72.05
+Date:                Sun, 28 Oct 2018   Prob (F-statistic):           2.35e-15
+Time:                        18:08:22   Log-Likelihood:                -1641.3
+No. Observations:                 238   AIC:                             3287.
+Df Residuals:                     236   BIC:                             3294.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1823.0435     17.674    103.149      0.000    1788.225    1857.862
+x1            14.3174      1.687      8.488      0.000      10.994      17.640
+==============================================================================
+Omnibus:                       26.471   Durbin-Watson:                   2.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.857
+Skew:                           0.829   Prob(JB):                     1.21e-07
+Kurtosis:                       3.679   Cond. No.                         11.9
+==============================================================================
+
+('Intercept/a0:', 1823.043461212659)
+('MSE/variance value:', 75020.29037354182)
+('MSE of residuals:', 57717.90493298641)
+('R-Square:', 0.2338823379254178)
+('F-Value:', 72.04667700902738)
+('Chi-square Results:', Power_divergenceResult(statistic=-2.7525142541622645e+19, pvalue=1.0))
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.731
+Model:                            OLS   Adj. R-squared:                  0.729
+Method:                 Least Squares   F-statistic:                     319.3
+Date:                Sun, 28 Oct 2018   Prob (F-statistic):           9.85e-68
+Time:                        18:08:24   Log-Likelihood:                -1516.8
+No. Observations:                 238   AIC:                             3040.
+Df Residuals:                     235   BIC:                             3050.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1703.4184     11.962    142.403      0.000    1679.852    1726.985
+x1            -1.3376      1.252     -1.068      0.286      -3.804       1.129
+x2             1.7962      0.086     20.840      0.000       1.626       1.966
+==============================================================================
+Omnibus:                        0.262   Durbin-Watson:                   1.892
+Prob(Omnibus):                  0.877   Jarque-Bera (JB):                0.148
+Skew:                           0.058   Prob(JB):                        0.929
+Kurtosis:                       3.039   Cond. No.                         224.
+==============================================================================
+
+('Intercept/a0:', 1703.4183726969652)
+('MSE/variance value:', 75020.29037354182)
+('MSE of residuals:', 20351.19689007222)
+('R-Square:', 0.7310133467699154)
+('F-Value:', 319.32464757644817)
+('Chi-square Results:', Power_divergenceResult(statistic=-7.080683452758312e+18, pvalue=1.0))
+
